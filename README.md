@@ -1,4 +1,4 @@
-# BreadcrumbsConnecting-AI-and-Blockchains
+# Connecting-AI-and-Blockchains
 In this project, we will build a price forecast to help inform the direction of a trade transaction.
 ![image](https://github.com/ThomasHeim11/Connecting-AI-and-Blockchains/assets/106417552/2ce1f703-b096-4d15-be8f-728c1e1452c5)
 

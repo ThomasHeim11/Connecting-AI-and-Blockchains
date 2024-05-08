@@ -1,0 +1,18 @@
+# Environment Variables
+.env
+.env.local
+.env.enc
+
+# Forge
+out
+cache
+broadcast
+
+# Dependency Directories
+node_modules/
+
+# Misc.
+.DS_Store
+
+# Hardhat
+build

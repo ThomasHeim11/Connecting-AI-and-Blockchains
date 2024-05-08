@@ -1,0 +1,41 @@
+{
+  "name": "functions-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BunsDev/block-magic-functions-workshop.git",
+  "author": "Buns Enchantress <bunsthedev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "set:pw": "npx env-enc set-pw",
+    "set:env": "npx env-enc set",
+    "simulate": "node scripts/Simulate.js",
+    "deploy": "npx hardhat func-deploy-consumer --network ethereumSepolia --verify true",
+    "subscribe": "npx hardhat func-sub-create --network ethereumSepolia --amount 5 --contract 0x6Bba94D2DDfd897D565bDEE41a09e9db14f87180",
+    "request": "npx hardhat func-request --network ethereumSepolia --contract 0x6Bba94D2DDfd897D565bDEE41a09e9db14f87180 --subid 2444",
+    "read": "npx hardhat func-read --network ethereumSepolia --contract 0x6Bba94D2DDfd897D565bDEE41a09e9db14f87180"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.1.0",
+    "@chainlink/env-enc": "^1.0.5",
+    "@chainlink/functions-toolkit": "^0.2.8"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-foundry": "^1.1.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^9.1.0",
+    "chai": "^4.3.6",
+    "hardhat": "^2.22.2",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-gas-reporter": "^2.1.0",
+    "ora": "5.4.1",
+    "solidity-coverage": "^0.8.2",
+    "typechain": "^8.3.2"
+  }
+
+}

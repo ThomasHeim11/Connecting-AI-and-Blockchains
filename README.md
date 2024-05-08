@@ -1,5 +1,5 @@
-# Block Magic Functions Workshop
-In this workshop, we will build a price forecast to help inform the direction of a trade transaction.
+# BreadcrumbsConnecting-AI-and-Blockchains
+In this project, we will build a price forecast to help inform the direction of a trade transaction.
 
 ## Getting Started
 - [Install Foundry and Rust](/docs/INSTALL.md)
